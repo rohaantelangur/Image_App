@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#Navbar{
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid rgb(53, 53, 53); */
+  display: flex;
+  box-sizing: border-box;
+}
+#Navbar > div{
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+#Nav1{
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Nav2{
+  position: relative;
+  width: 62%;
+}
+#Nav2 i{
+  font-size: 25px;
+  position: absolute;
+  left: 3%;
+  top: 35%;
+}
+
+#Nav2 input{
+  width: 90%;
+  height: 65%;
+  margin-left: 2%;
+  margin-top: 1.25%;
+  border-radius: 50px;
+  font-size: 22px;
+  padding-left: 5%;
+}
+#Nav3{
+  display: flex;
+  width: 15%;
+  font-size: 22px;
+  margin: auto;
+  justify-content: space-around;
+}
+#Nav2 svg{
+  position: relative;
+  left: 92%;
+  top: -60%;
+}
+#Nav3 a{
+  text-decoration: none;
+  color: black;
+}
+#Nav4{
+  width: 18%;
+  margin: auto;
+  display: flex;
+justify-content: space-around;
+}
+#Nav4 button{
+  height: 40px;
+  padding: 5px;
+}
+#Nav4 i{
+  margin: auto;
+font-size: 30px;
+}
+
+#Navbar2{
+  display: flex;
+  padding-top: 8px;
+  font-size: 25px;
+  justify-content: space-around;
+  width: 100%;
+  height: 40px;
+  /* border: 1px solid rgb(53, 53, 53); */
+  box-sizing: border-box;
+}
+#Navbar2 a{
+  text-decoration: none;
+  color: black;
+}
+#Navbar2 a:hover{
+  border-bottom: 2px solid black ;
+}
+#Navbar3{
+  display: flex;
+  padding-top: 5px;
+  font-size: 25px;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(173, 173, 173);
+  box-sizing: border-box;
+  font-weight: 400;
+
+}
+#Navbar3>div a{
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  padding: 5px;
+}
+#Navbar3>div a:hover{
+  border-bottom: 2px solid black ;
+}
+#sort-select{
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#div2{
+  margin-right: 2%;
+}
+#show-data{
+  margin-top: 30px !important; 
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+/* #show-data>div{
+border: 1px solid red;
+} */
+
